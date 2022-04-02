@@ -1,0 +1,42 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:2.5rem 1.5rem;
+}
+
+.app__searchForm{
+  margin:1.2rem;
+}
+
+.app__input{
+  padding:0.3rem .9rem; 
+  min-width:200px;
+  max-width: 100vw;
+  font-size: 1rem;
+}
+
+.app__submit{
+  padding:0.3rem .9rem; 
+  margin-left: .3rem;
+  background-color: #02aff0;
+  color:white;
+  border-radius:0.3rem;
+  border:none;
+  transition:all 0.4s ease-in-out;
+
+}
+
+.app__submit:hover{
+  background-color: #fff;
+  color:#02aff0;
+  border:1px solid #02aff0; 
+  outline:none; 
+}
+.app_recipes{
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 230px 230px;
+  
+}
